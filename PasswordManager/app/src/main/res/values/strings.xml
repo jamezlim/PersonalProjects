@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Password Manager</string>
+    <string name="hint"> Enter Password Here</string>
+</resources>

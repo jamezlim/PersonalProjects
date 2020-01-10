@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/adapterViewPage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="66.6"
+        android:background="#A6D8DF"
+        android:gravity="center"
+        android:text="page"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="33.3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/adapterViewAccount"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:text="Account" />
+
+        <TextView
+            android:id="@+id/adapterViewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:backgroundTint="#0AA22828"
+            android:gravity="center"
+            android:text="Password" />
+
+    </LinearLayout>
+
+</LinearLayout>
